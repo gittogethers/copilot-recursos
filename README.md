@@ -33,10 +33,10 @@ Este repositorio contiene una colección de ejercicios, tutoriales y recursos pa
 ¡Las contribuciones son bienvenidas! Si tienes algún ejercicio, tutorial o recurso que crees que sería útil, no dudes en hacer un pull request.
 
 ## Licencia
-Este proyecto está bajo la licencia [MIT]. Consulta el archivo `LICENSE` para más detalles.
+Este proyecto está bajo la licencia MIT. Consulta el archivo `LICENSE` para más detalles.
 
 ## Contacto
-Si tienes alguna pregunta o sugerencia, por favor abre un issue en este repositorio o contacta a [andregriffiths11@github.com].
+Si tienes alguna pregunta o sugerencia, por favor abre un issue en este repositorio o contacta a [andreagriffiths11@github.com].
 
 ---
 
