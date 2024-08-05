@@ -11,7 +11,7 @@ Este repositorio contiene una colección de ejercicios, tutoriales y recursos pa
 
 ### 2. Tutoriales
 - [Introducción a GitHub Copilot](https://github.com/gittogethers/copilot-recursos/blob/main/tutoriales/Introducci%C3%B3n%20a%20GitHub%20Copilot.md)
-- Configuración de GitHub Copilot en diferentes IDEs
+- [Configuración de GitHub Copilot en diferentes IDEs](https://github.com/gittogethers/copilot-recursos/blob/main/tutoriales/configuracion.md)
 - Mejores prácticas para usar GitHub Copilot
 
 ### 3. Recursos Adicionales
