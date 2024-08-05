@@ -6,7 +6,7 @@ Este repositorio contiene una colección de ejercicios, tutoriales y recursos pa
 ## Contenido
 
 ### 1. Ejercicios
-- **Resolviendo Rompecabezas de Algoritmos**: Un tutorial paso a paso sobre cómo usar GitHub Copilot para resolver problemas de algoritmos como los que se encuentran en LeetCode.
+- [**Resolviendo Rompecabezas de Algoritmos**](https://github.com/gittogethers/copilot-recursos/blob/main/ejercicios/leetcode.md): Un tutorial paso a paso sobre cómo usar GitHub Copilot para resolver problemas de algoritmos como los que se encuentran en LeetCode.
 - **Otros ejercicios**: TBA
 
 ### 2. Tutoriales
