@@ -10,7 +10,7 @@ Este repositorio contiene una colección de ejercicios, tutoriales y recursos pa
 - **Otros ejercicios**: TBA
 
 ### 2. Tutoriales
-- Introducción a GitHub Copilot
+- [Introducción a GitHub Copilot](tutoriales/Introducción a GitHub Copilot.md)
 - Configuración de GitHub Copilot en diferentes IDEs
 - Mejores prácticas para usar GitHub Copilot
 
