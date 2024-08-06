@@ -1,59 +1,62 @@
-# Música Popular Uruguaya en TypeScript
+### Programa de Gestión de Música Popular Uruguaya con JavaScript y GitHub Copilot
 
 ## Introducción
 
-En este ejercicio, crearemos un programa en TypeScript que gestione información sobre la música popular uruguaya.
+En este ejercicio, crearemos un programa en JavaScript que gestione información sobre la música popular uruguaya, utilizando GitHub Copilot para ayudarnos en el proceso de codificación.
 
 ## Requisitos previos
 
 1. Tener instalado Visual Studio Code
 2. Tener instalada la extensión de GitHub Copilot en VS Code
-3. Tener conocimientos básicos de TypeScript
+3. Tener conocimientos básicos de JavaScript
 
 ## Paso 1: Configurar el entorno
 
-Primero, abre Visual Studio Code y crea un nuevo archivo llamado `musica_uruguaya.ts`.
+Abre Visual Studio Code y crea un nuevo archivo llamado `musica_uruguaya.js`.
 
 ## Paso 2: Comenzar con el código
 
-Empecemos escribiendo un comentario para describir nuestro programa:
+Empecemos escribiendo un comentario para describir nuestro programa. Este comentario servirá como prompt para GitHub Copilot:
 
-```typescript
+```javascript
 // Programa para gestionar información sobre artistas y canciones de música popular uruguaya
 ```
 
 GitHub Copilot comenzará a sugerir código basado en este comentario. Vamos a crear una clase para representar un artista de música:
 
-```typescript
-class Artista {
-    nombre: string;
-    genero: string;
-    canciones: string[];
+```javascript
+// Crear una clase Artista con propiedades nombre, genero y canciones
+```
 
-    constructor(nombre: string, genero: string) {
+GitHub Copilot probablemente sugerirá algo como esto:
+
+```javascript
+class Artista {
+    constructor(nombre, genero) {
         this.nombre = nombre;
         this.genero = genero;
         this.canciones = [];
-    }
-
-    agregarCancion(cancion: string) {
-        this.canciones.push(cancion);
-        console.log(`Canción "${cancion}" agregada a ${this.nombre}`);
     }
 }
 ```
 
 ## Paso 3: Agregar métodos a la clase
 
-Ahora, agreguemos algunos métodos a nuestra clase. Escribe el siguiente comentario:
+Ahora, agreguemos algunos métodos a nuestra clase. Escribe los siguientes comentarios como prompts para GitHub Copilot:
 
-```typescript
+```javascript
+// Método para agregar una canción al artista
 // Método para listar todas las canciones del artista
 ```
 
-GitHub Copilot sugerirá un método como este:
+GitHub Copilot sugerirá métodos como estos:
 
-```typescript
+```javascript
+agregarCancion(cancion) {
+    this.canciones.push(cancion);
+    console.log(`Canción "${cancion}" agregada a ${this.nombre}`);
+}
+
 listarCanciones() {
     console.log(`Canciones de ${this.nombre}:`);
     this.canciones.forEach((cancion, index) => {
@@ -64,16 +67,16 @@ listarCanciones() {
 
 ## Paso 4: Crear una lista de artistas
 
-Vamos a crear una lista de artistas uruguayos. Escribe el siguiente comentario:
+Vamos a crear una lista de artistas uruguayos. Escribe el siguiente comentario como prompt:
 
-```typescript
-// Lista de artistas uruguayos famosos
+```javascript
+// Crear una lista de artistas uruguayos famosos
 ```
 
 GitHub Copilot probablemente sugerirá algo como esto:
 
-```typescript
-let artistas: Artista[] = [
+```javascript
+let artistas = [
     new Artista("Jorge Drexler", "Canto popular"),
     new Artista("El Cuarteto de Nos", "Rock"),
     new Artista("No Te Va Gustar", "Rock"),
@@ -83,15 +86,15 @@ let artistas: Artista[] = [
 
 ## Paso 5: Crear una función para agregar canciones a los artistas
 
-Ahora, vamos a crear una función que agregue canciones a los artistas. Escribe el siguiente comentario:
+Ahora, vamos a crear una función que agregue canciones a los artistas. Usa este prompt:
 
-```typescript
+```javascript
 // Función para agregar canciones a los artistas
 ```
 
 GitHub Copilot podría sugerir algo como esto:
 
-```typescript
+```javascript
 function agregarCanciones() {
     artistas[0].agregarCancion("Al otro lado del río");
     artistas[1].agregarCancion("Yendo a la casa de Damián");
@@ -102,64 +105,16 @@ function agregarCanciones() {
 
 ## Paso 6: Ejecutar el programa
 
-Finalmente, agreguemos el código para ejecutar nuestro programa:
+Finalmente, agreguemos el código para ejecutar nuestro programa. Usa este prompt:
 
-```typescript
+```javascript
+// Ejecutar el programa: agregar canciones y listar canciones de cada artista
+```
+
+GitHub Copilot sugerirá algo como:
+
+```javascript
 agregarCanciones();
 artistas.forEach(artista => artista.listarCanciones());
 ```
 
-## Código completo
-
-Aquí está el código completo del programa:
-
-```typescript
-// Programa para gestionar información sobre artistas y canciones de música popular uruguaya
-
-class Artista {
-    nombre: string;
-    genero: string;
-    canciones: string[];
-
-    constructor(nombre: string, genero: string) {
-        this.nombre = nombre;
-        this.genero = genero;
-        this.canciones = [];
-    }
-
-    agregarCancion(cancion: string) {
-        this.canciones.push(cancion);
-        console.log(`Canción "${cancion}" agregada a ${this.nombre}`);
-    }
-
-    listarCanciones() {
-        console.log(`Canciones de ${this.nombre}:`);
-        this.canciones.forEach((cancion, index) => {
-            console.log(`${index + 1}. ${cancion}`);
-        });
-    }
-}
-
-// Lista de artistas uruguayos famosos
-let artistas: Artista[] = [
-    new Artista("Jorge Drexler", "Canto popular"),
-    new Artista("El Cuarteto de Nos", "Rock"),
-    new Artista("No Te Va Gustar", "Rock"),
-    new Artista("La Vela Puerca", "Rock")
-];
-
-// Función para agregar canciones a los artistas
-function agregarCanciones() {
-    artistas[0].agregarCancion("Al otro lado del río");
-    artistas[1].agregarCancion("Yendo a la casa de Damián");
-    artistas[2].agregarCancion("A las nueve");
-    artistas[3].agregarCancion("El viejo");
-}
-
-agregarCanciones();
-artistas.forEach(artista => artista.listarCanciones());
-```
-
-## Conclusión
-
-En este tutorial, hemos visto cómo usar GitHub Copilot para crear rápidamente un programa en TypeScript relacionado con la música popular uruguaya. GitHub Copilot nos ayudó a escribir clases, métodos y funciones basándose en nuestros comentarios y contexto.
