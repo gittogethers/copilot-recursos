@@ -1,4 +1,4 @@
-# Uso de GitHub Copilot para desarrollar un programa de fútbol Uruguayo en Python
+# Fútbol Uruguayo en Python
 
 ## Introducción
 
