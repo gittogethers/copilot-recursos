@@ -37,7 +37,7 @@ Este repositorio contiene una colección de ejercicios, tutoriales y recursos pa
 Este proyecto está bajo la licencia MIT. Consulta el archivo `LICENSE` para más detalles.
 
 ## Contacto
-Si tienes alguna pregunta o sugerencia, por favor abre un issue en este repositorio o contacta a @alacolombiadev por Twitter o correo: andreagriffiths11@github.com.
+Si tienes alguna pregunta o sugerencia, por favor abre un issue en este repositorio o contacta a [@alacolombiadev](https://twitter.com/alacolombiadev) por Twitter o correo: andreagriffiths11@github.com.
 
 ---
 
