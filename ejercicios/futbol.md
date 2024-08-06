@@ -2,7 +2,7 @@
 
 ## Introducción
 
-Este tutorial te guiará en el uso de GitHub Copilot para desarrollar un programa en Python que gestione información sobre equipos de fútbol uruguayos. GitHub Copilot es una herramienta de inteligencia artificial que facilita la escritura de código, sugiriendo fragmentos y completaciones en función del contexto y comentarios proporcionados.
+Este tutorial te guiará en el uso de GitHub Copilot para desarrollar un programa en Python que gestione información sobre equipos de fútbol uruguayos. 
 
 ## Requisitos Previos
 
