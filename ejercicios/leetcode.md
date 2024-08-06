@@ -106,15 +106,9 @@ public static void main(String[] args) {
 
 A continuación, probaremos nuestro código. Abre una nueva **Terminal** yendo al menú **Terminal** y seleccionando **Nueva Terminal**.
 
-
-
 Luego, tendrás una nueva terminal abierta. Asegúrate de haber instalado un Java SDK como prerrequisito. Puedes verificarlo escribiendo `java -version` en la terminal.
 
-![Terminal abierta](./images/11_TerminalOpened.jpg)
-
 Luego, puedes compilar tu código primero con `javac Puzzle.java` y ejecutarlo con `java Puzzle`. Deberías ver el siguiente resultado.
-
-![Ejecutar el código](./images/12_Output.jpg)
 
 ¡Eso es genial! Pero puede que no sea exactamente el resultado que estamos buscando. Intentemos agregar un comentario que se proporcionó desde Leetcode para hacerlo más preciso.
 
