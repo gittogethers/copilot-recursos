@@ -1,29 +1,32 @@
-# Fútbol Uruguayo en Python
+# Fútbol Uruguayo Torneo en Python
+
+Aquí tienes el tutorial completo en formato Markdown, incluyendo el código:
+
+# Tutorial: Uso de GitHub Copilot para crear un programa de fútbol uruguayo en Python
 
 ## Introducción
 
-Este tutorial te guiará en el uso de GitHub Copilot para desarrollar un programa en Python que gestione información sobre equipos de fútbol uruguayos. 
+En este tutorial, aprenderemos a utilizar GitHub Copilot para crear un programa en Python relacionado con el fútbol uruguayo. GitHub Copilot es una herramienta de inteligencia artificial que ayuda a los programadores a escribir código más rápido y eficientemente.
 
-## Requisitos Previos
+## Requisitos previos
 
-1. Visual Studio Code (VS Code) instalado.
-2. Extensión de GitHub Copilot instalada en VS Code.
-3. Conocimientos básicos de Python.
+1. Tener instalado Visual Studio Code
+2. Tener instalada la extensión de GitHub Copilot en VS Code
+3. Tener conocimientos básicos de Python
 
-## Paso 1: Configuración del Entorno
+## Paso 1: Configurar el entorno
 
-1. Abre Visual Studio Code.
-2. Crea un nuevo archivo y nómbralo `futbol_uruguayo.py`.
+Primero, abre Visual Studio Code y crea un nuevo archivo llamado `futbol_uruguayo.py`.
 
-## Paso 2: Inicio del Código
+## Paso 2: Comenzar con el código
 
-Comienza agregando un comentario que describa el propósito del programa:
+Empecemos escribiendo un comentario para describir nuestro programa:
 
 ```python
 # Programa para gestionar información sobre equipos de fútbol uruguayos
 ```
 
-GitHub Copilot generará sugerencias basadas en este comentario. Ahora, define una clase para representar a un equipo de fútbol:
+GitHub Copilot comenzará a sugerir código basado en este comentario. Vamos a crear una clase para representar un equipo de fútbol:
 
 ```python
 class EquipoUruguayo:
@@ -34,15 +37,15 @@ class EquipoUruguayo:
         self.titulos = 0
 ```
 
-## Paso 3: Adición de Métodos a la Clase
+## Paso 3: Agregar métodos a la clase
 
-Para añadir métodos a la clase, escribe el siguiente comentario:
+Ahora, agreguemos algunos métodos a nuestra clase. Escribe el siguiente comentario:
 
 ```python
 # Método para agregar títulos al equipo
 ```
 
-GitHub Copilot sugerirá un método similar al siguiente:
+GitHub Copilot sugerirá un método como este:
 
 ```python
 def agregar_titulo(self):
@@ -50,15 +53,15 @@ def agregar_titulo(self):
     print(f"{self.nombre} ha ganado un nuevo título. Total de títulos: {self.titulos}")
 ```
 
-## Paso 4: Creación de una Lista de Equipos
+## Paso 4: Crear una lista de equipos
 
-A continuación, crea una lista de equipos uruguayos. Agrega el siguiente comentario:
+Vamos a crear una lista de equipos uruguayos. Escribe el siguiente comentario:
 
 ```python
-# Lista de equipos uruguayos destacados
+# Lista de equipos uruguayos famosos
 ```
 
-GitHub Copilot debería sugerir una lista como esta:
+GitHub Copilot probablemente sugerirá algo como esto:
 
 ```python
 equipos_uruguayos = [
@@ -69,21 +72,21 @@ equipos_uruguayos = [
 ]
 ```
 
-## Paso 5: Implementación de una Función para Simular un Torneo
+## Paso 5: Crear una función para simular un torneo
 
-Para simular un torneo entre los equipos, utiliza el siguiente comentario:
+Ahora, vamos a crear una función que simule un torneo entre los equipos. Escribe el siguiente comentario:
 
 ```python
 # Función para simular un torneo entre los equipos
 ```
 
-GitHub Copilot podría sugerir una función como la siguiente:
+GitHub Copilot podría sugerir algo como esto:
 
 ```python
 import random
 
 def simular_torneo(equipos):
-    print("¡Comienza el torneo uruguayo!")
+    print("Comienza el torneo uruguayo!")
     for _ in range(5):  # Simulamos 5 rondas
         ganador = random.choice(equipos)
         ganador.agregar_titulo()
@@ -93,17 +96,60 @@ def simular_torneo(equipos):
         print(f"{equipo.nombre}: {equipo.titulos} títulos")
 ```
 
-## Paso 6: Ejecución del Programa
+## Paso 6: Ejecutar el programa
 
-Finalmente, agrega el siguiente código para ejecutar el programa:
+Finalmente, agreguemos el código para ejecutar nuestro programa:
 
 ```python
 if __name__ == "__main__":
     simular_torneo(equipos_uruguayos)
 ```
 
+## Código completo
+
+Aquí está el código completo del programa:
+
+```python
+# Programa para gestionar información sobre equipos de fútbol uruguayos
+
+import random
+
+class EquipoUruguayo:
+    def __init__(self, nombre, ciudad, fundacion):
+        self.nombre = nombre
+        self.ciudad = ciudad
+        self.fundacion = fundacion
+        self.titulos = 0
+
+    # Método para agregar títulos al equipo
+    def agregar_titulo(self):
+        self.titulos += 1
+        print(f"{self.nombre} ha ganado un nuevo título. Total de títulos: {self.titulos}")
+
+# Lista de equipos uruguayos famosos
+equipos_uruguayos = [
+    EquipoUruguayo("Peñarol", "Montevideo", 1891),
+    EquipoUruguayo("Nacional", "Montevideo", 1899),
+    EquipoUruguayo("Defensor Sporting", "Montevideo", 1913),
+    EquipoUruguayo("Danubio", "Montevideo", 1932)
+]
+
+# Función para simular un torneo entre los equipos
+def simular_torneo(equipos):
+    print("Comienza el torneo uruguayo!")
+    for _ in range(5):  # Simulamos 5 rondas
+        ganador = random.choice(equipos)
+        ganador.agregar_titulo()
+    
+    print("\nResultados finales:")
+    for equipo in equipos:
+        print(f"{equipo.nombre}: {equipo.titulos} títulos")
+
+if __name__ == "__main__":
+    simular_torneo(equipos_uruguayos)
+```
+
 ## Conclusión
 
-En este tutorial, hemos aprendido a usar GitHub Copilot para desarrollar un programa en Python que gestiona información sobre equipos de fútbol uruguayos. GitHub Copilot nos asistió en la escritura de clases, métodos y funciones basándose en nuestros comentarios y el contexto del código.
-Es importante recordar que, aunque GitHub Copilot es una herramienta poderosa, siempre debes revisar y comprender el código generado antes de integrarlo en tus proyectos.
+En este tutorial, hemos visto cómo usar GitHub Copilot para crear rápidamente un programa en Python relacionado con el fútbol uruguayo. GitHub Copilot nos ayudó a escribir clases, métodos y funciones basándose en nuestros comentarios y contexto.
 
