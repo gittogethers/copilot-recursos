@@ -2,7 +2,7 @@
 
 ## Introducción
 
-En este ejercicio, aprenderemos a utilizar GitHub Copilot para crear un programa en TypeScript que gestione información sobre la música popular uruguaya. GitHub Copilot es una herramienta de inteligencia artificial que ayuda a los programadores a escribir código más rápido y eficientemente.
+En este ejercicio, crearemos un programa en TypeScript que gestione información sobre la música popular uruguaya.
 
 ## Requisitos previos
 
