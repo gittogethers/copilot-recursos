@@ -5,17 +5,17 @@ Este repositorio contiene una colección de ejercicios, tutoriales y recursos pa
 
 ## Contenido
 
-### 1. Ejercicios
-- [**Resolviendo Rompecabezas de Algoritmos en Java**](https://github.com/gittogethers/copilot-recursos/blob/main/ejercicios/leetcode.md)
-- [**Fútbol uruguayo en Python**](https://github.com/gittogethers/copilot-recursos/blob/main/ejercicios/futbol.md)
-- [**Música Popular Uruguaya en TypeScript**](https://github.com/gittogethers/copilot-recursos/blob/main/ejercicios/musica_popular_uruguay.md)
+### Ejercicios
+- [Resolviendo Rompecabezas de Algoritmos en Java](https://github.com/gittogethers/copilot-recursos/blob/main/ejercicios/leetcode.md)
+- [Fútbol uruguayo en Python](https://github.com/gittogethers/copilot-recursos/blob/main/ejercicios/futbol.md)
+- [Música Popular Uruguaya en TypeScript](https://github.com/gittogethers/copilot-recursos/blob/main/ejercicios/musica_popular_uruguay.md)
 
-### 2. Tutoriales
+### Tutoriales
 - [Introducción a GitHub Copilot](https://github.com/gittogethers/copilot-recursos/blob/main/tutoriales/Introducci%C3%B3n%20a%20GitHub%20Copilot.md)
 - [Configuración de GitHub Copilot en diferentes IDEs](https://github.com/gittogethers/copilot-recursos/blob/main/tutoriales/configuracion.md)
 - [Mejores prácticas para usar GitHub Copilot](https://github.com/gittogethers/copilot-recursos/blob/main/tutoriales/mejores-practicas.md)
 
-### 3. Recursos Adicionales
+### Recursos Adicionales
 - [Asistido por IA con GitHub Copilot](https://learn.microsoft.com/es-es/shows/introduction-to-github-copilot/what-is-github-copilot-1-of-6)
 - [10 MOTIVOS para usar GITHUB COPILOT como PROGRAMADOR](https://www.youtube.com/watch?v=jsHAyBmFZlo)
 - Enlaces útiles
