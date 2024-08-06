@@ -17,7 +17,7 @@ Este repositorio contiene una colección de ejercicios, tutoriales y recursos pa
 
 ### 3. Recursos Adicionales
 - [Asistido por IA con GitHub Copilot](https://learn.microsoft.com/es-es/shows/introduction-to-github-copilot/what-is-github-copilot-1-of-6)
-- Preguntas frecuentes
+- [10 MOTIVOS para usar GITHUB COPILOT como PROGRAMADOR](https://www.youtube.com/watch?v=jsHAyBmFZlo)
 - Enlaces útiles
 
 ## Cómo usar este repositorio
