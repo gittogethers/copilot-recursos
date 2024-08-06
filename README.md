@@ -42,3 +42,13 @@ Si tienes alguna pregunta o sugerencia, por favor abre un issue en este reposito
 ---
 
 ¡Esperamos que estos recursos te ayuden a dominar GitHub Copilot y a mejorar tus habilidades de programación!
+
+## Sugerencias de mejora
+
+Para mejorar este repositorio, podrías considerar las siguientes ideas:
+
+1. **Agregar más ejercicios**: Incluye más ejercicios en diferentes lenguajes de programación y niveles de dificultad.
+2. **Agregar más tutoriales**: Crea tutoriales adicionales que cubran más aspectos de GitHub Copilot y su uso en diferentes contextos.
+3. **Mejorar los recursos existentes**: Revisa y actualiza los ejercicios y tutoriales actuales para asegurarte de que estén al día y sean lo más útiles posible.
+4. **Agregar más recursos**: Incluye enlaces a más recursos externos, como videos, artículos y documentación, que puedan ser útiles para los usuarios.
+5. **Fomentar la colaboración**: Anima a la comunidad a contribuir con sus propios ejercicios, tutoriales y recursos, y a compartir sus experiencias y consejos.

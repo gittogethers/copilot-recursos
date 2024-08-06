@@ -118,3 +118,13 @@ agregarCanciones();
 artistas.forEach(artista => artista.listarCanciones());
 ```
 
+## Sugerencias de mejora
+
+Para mejorar este programa, podrías considerar las siguientes ideas:
+
+1. **Agregar más artistas**: Incluye más artistas uruguayos para hacer la lista más completa.
+2. **Agregar más métodos a la clase `Artista`**: Por ejemplo, podrías agregar métodos para eliminar canciones, actualizar información del artista, etc.
+3. **Crear una función para simular un festival de música**: Podrías crear una función que simule un festival de música donde los artistas presenten sus canciones.
+4. **Mejorar la interfaz de usuario**: Agrega una interfaz gráfica o una interfaz de línea de comandos más interactiva.
+5. **Guardar y cargar datos**: Implementa funciones para guardar y cargar datos de los artistas y canciones desde archivos.
+6. **Añadir funcionalidades adicionales**: Como la gestión de álbumes, la clasificación de canciones por popularidad, etc.
