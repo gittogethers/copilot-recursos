@@ -16,7 +16,7 @@ Este repositorio contiene una colección de ejercicios, tutoriales y recursos pa
 - [Mejores prácticas para usar GitHub Copilot](https://github.com/gittogethers/copilot-recursos/blob/main/tutoriales/mejores-practicas.md)
 
 ### 3. Recursos Adicionales
-- Guía de referencia rápida de GitHub Copilot
+- [Asistido por IA con GitHub Copilot](https://learn.microsoft.com/es-es/shows/introduction-to-github-copilot/what-is-github-copilot-1-of-6)
 - Preguntas frecuentes
 - Enlaces útiles
 
