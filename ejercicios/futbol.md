@@ -153,3 +153,13 @@ if __name__ == "__main__":
 
 En este tutorial, hemos visto cómo usar GitHub Copilot para crear rápidamente un programa en Python relacionado con el fútbol uruguayo. GitHub Copilot nos ayudó a escribir clases, métodos y funciones basándose en nuestros comentarios y contexto.
 
+## Sugerencias de mejora
+
+Para mejorar este programa, podrías considerar las siguientes ideas:
+
+1. **Agregar más equipos**: Incluye más equipos uruguayos para hacer el torneo más interesante.
+2. **Simular más rondas**: Aumenta el número de rondas en el torneo para obtener resultados más variados.
+3. **Agregar más métodos a la clase `EquipoUruguayo`**: Por ejemplo, podrías agregar métodos para registrar jugadores, calcular estadísticas del equipo, etc.
+4. **Mejorar la interfaz de usuario**: Agrega una interfaz gráfica o una interfaz de línea de comandos más interactiva.
+5. **Guardar y cargar datos**: Implementa funciones para guardar y cargar datos de los equipos y torneos desde archivos.
+6. **Añadir funcionalidades adicionales**: Como la simulación de partidos individuales, la gestión de ligas y copas, etc.

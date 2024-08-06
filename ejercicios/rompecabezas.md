@@ -143,3 +143,13 @@ Y presiona **Ejecutar código**.
 ![Ejecutar código](./images/16_LeetCodePass.jpg)
 
 ¡Voilà! Puedes ver que Leetcode pasó la prueba con éxito. Puedes enviar tu código a Leetcode y ver si puedes obtener un rango más alto. Por supuesto, eso depende totalmente de ti.
+
+## Sugerencias de mejora
+
+Para mejorar este programa, podrías considerar las siguientes ideas:
+
+1. **Agregar más casos de prueba**: Incluye más casos de prueba para asegurarte de que el algoritmo funcione correctamente en diferentes escenarios.
+2. **Manejo de casos extremos**: Asegúrate de que el algoritmo maneje correctamente los casos extremos, como números muy grandes o muy pequeños.
+3. **Optimización del algoritmo**: Revisa el algoritmo para ver si hay formas de optimizarlo y hacerlo más eficiente.
+4. **Documentación**: Agrega comentarios y documentación para explicar cómo funciona el algoritmo y por qué se tomaron ciertas decisiones.
+5. **Refactorización**: Revisa el código para ver si hay formas de hacerlo más limpio y legible, como dividir funciones grandes en funciones más pequeñas y manejables.
