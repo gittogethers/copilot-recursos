@@ -1,7 +1,7 @@
 # Recursos de GitHub Copilot
 
 ## Descripción
-Este repositorio contiene una colección de ejercicios, tutoriales y recursos para aprender a utilizar GitHub Copilot de manera efectiva. Diseñado tanto para principiantes como para usuarios avanzados, este repositorio te ayudará a mejorar tus habilidades de programación y a aprovechar al máximo las capacidades de GitHub Copilot.
+Este repositorio contiene una colección de ejercicios, tutoriales y recursos para que estudiantes aprenden a utilizar GitHub Copilot de manera efectiva. Diseñado tanto para principiantes como para usuarios avanzados, este repositorio te ayudará a mejorar tus habilidades de programación y a aprovechar al máximo las capacidades de GitHub Copilot.
 
 ## Contenido
 
