@@ -1,4 +1,4 @@
-# Recursos de GitHub Copilot
+<img width="595" alt="Screenshot 2024-08-06 at 2 36 59 PM" src="https://github.com/user-attachments/assets/5794a2d4-0ac0-485a-a7c5-1334f6e955a6">
 
 ## Descripción
 Este repositorio contiene una colección de ejercicios, tutoriales y recursos para que estudiantes aprenden a utilizar GitHub Copilot de manera efectiva. Diseñado tanto para principiantes como para usuarios avanzados, este repositorio te ayudará a mejorar tus habilidades de programación y a aprovechar al máximo las capacidades de GitHub Copilot.
