@@ -1,4 +1,4 @@
-# Empezando - Resolviendo un rompecabezas de algoritmo - Visual Studio Code
+# Resolviendo un rompecabezas de algoritmo con Java 
 
 ¡Bienvenido a GitHub Copilot! ¿Cuál será la mejor manera de ver el poder de Copilot? Comencemos resolviendo un rompecabezas de algoritmo. Como cualquier estudiante de ciencias de la computación que busca trabajo, se te pedirá que resuelvas rompecabezas de algoritmos durante las entrevistas de trabajo en lugares como Google, Microsoft, Amazon y Facebook. Para prepararse para esto, muchos estudiantes universitarios utilizan sitios de preparación de código como **LeetCode** y **HackerRank** para practicar la resolución de rompecabezas de algoritmos.
 
